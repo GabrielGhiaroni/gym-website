@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="blur footer__blur"></div>
       <div className="footer">
           <div className="footer__socials">
-            <a href="https://github.com/GabrielGhiaroni" target="_blank"><img src={GitHub} alt="github logo" /></a>
-            <a href="https://www.linkedin.com/in/gabrielghiaroni/" target="_blank"><img src={Linkedin} alt="linkedin logo" /></a>
+            <a href="https://github.com/GabrielGhiaroni"><img src={GitHub} alt="github logo" /></a>
+            <a href="https://www.linkedin.com/in/gabrielghiaroni/"><img src={Linkedin} alt="linkedin logo" /></a>
           </div>
           <div className="footer__logo">
             <a href="#home"><img src={Logo} alt="fitclub logo" /></a>

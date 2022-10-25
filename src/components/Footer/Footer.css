@@ -1,0 +1,45 @@
+.footer-container {
+    position: relative;
+}
+
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.footer__socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.footer__socials img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.footer__logo img {
+    width: 10rem;
+}
+
+.footer__blur {
+    width: 35rem;
+    height: 8rem;
+    left: 20rem;
+    background: red;
+}
+
+@media screen and (max-width: 480px) {
+    .footer__blur {
+        width: 16rem;
+        height: 5rem;
+        left: 5rem;
+        background: red;
+    }
+}

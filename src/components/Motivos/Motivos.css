@@ -86,7 +86,7 @@
     width: 2.5rem;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .motivos {
         flex-direction: column;
     }

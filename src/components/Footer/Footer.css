@@ -35,7 +35,7 @@
     background: red;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .footer__blur {
         width: 16rem;
         height: 5rem;

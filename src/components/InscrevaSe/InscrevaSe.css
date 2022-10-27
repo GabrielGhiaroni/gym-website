@@ -55,7 +55,7 @@
     color: white;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .inscrevaSe {
         flex-direction: column;
         gap: 2rem;

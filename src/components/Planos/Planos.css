@@ -87,7 +87,7 @@
     right: 0rem;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .planos__cards {
         flex-direction: column;
     }

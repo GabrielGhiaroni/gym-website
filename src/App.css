@@ -1,4 +1,5 @@
-/* make variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 :root {
   --lightgray: #D9D9D9;
   --gray: #9c9c9c;
@@ -58,4 +59,8 @@ html {
   border-radius: 50%;
   filter: blur(150px);
   z-index: -9;
+}
+
+body {
+  margin: 0;
 }
